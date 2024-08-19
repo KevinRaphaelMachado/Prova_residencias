@@ -1,6 +1,6 @@
-const prompt = require("promprt-sync")();
+const prompt = require("prompt-sync")();
 
-const {criar, listar, atualizar, deletar} = require("");
+const {criar, listar, atualizar, deletar} = require("./modulo.js");
 
 while (true) {
     console.log(`
